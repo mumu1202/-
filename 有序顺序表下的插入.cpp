@@ -18,7 +18,7 @@ private:
 template <class DataType>
 SeqList<DataType>::SeqList(int a[], int n)
 {
-    if (n > MaxSize)throw "参数非法";
+    if (n > MaxSize)throw "鍙傛暟闈炴硶";
     for (int i = 0;i < n;i++)
     {
         data[i] = a[i];
